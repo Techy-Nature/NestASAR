@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A packing crate with a leaf sprouting from the lid. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- leaf -->
+    <path
+        android:fillColor="#E3BC7A"
+        android:pathData="M54,40 C51,30 57,22 69,20 C70,31 64,39 54,40 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E3BC7A"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M54,42 C56,36 60,30 66,24" />
+    <!-- lid -->
+    <path
+        android:fillColor="#8BD3B0"
+        android:pathData="M33,42 H75 A3,3 0 0 1 78,45 V51 A3,3 0 0 1 75,54 H33 A3,3 0 0 1 30,51 V45 A3,3 0 0 1 33,42 Z" />
+    <!-- body -->
+    <path
+        android:fillColor="#5FA88A"
+        android:pathData="M33,56 H75 V81 A3,3 0 0 1 72,84 H36 A3,3 0 0 1 33,81 Z" />
+    <!-- handle slot -->
+    <path
+        android:fillColor="#15201B"
+        android:pathData="M46,62 H62 A2,2 0 0 1 64,64 V65 A2,2 0 0 1 62,67 H46 A2,2 0 0 1 44,65 V64 A2,2 0 0 1 46,62 Z" />
+</vector>
